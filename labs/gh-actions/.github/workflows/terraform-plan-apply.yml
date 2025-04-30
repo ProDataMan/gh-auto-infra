@@ -12,7 +12,7 @@ permissions:
 env:
   TERRAFORM_DIR: './main'
   AWS_REGION: 'us-west-1'
-
+  
 jobs:
   terraform-plan:
     name: 'Terraform Plan'
@@ -101,3 +101,4 @@ jobs:
     - name: Terraform Apply
       run: terraform apply -auto-approve tfplan
       working-directory: ${{ env.TERRAFORM_DIR }}
+      
