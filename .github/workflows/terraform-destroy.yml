@@ -8,7 +8,6 @@ permissions:
   pull-requests: write
 
 env:
-<<<<<<< HEAD
   TERRAFORM_DIR: './gh-auto-infra/labs/gh-actions/main'
   AWS_REGION: 'us-west-1'
 =======
