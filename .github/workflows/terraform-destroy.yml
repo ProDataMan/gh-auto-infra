@@ -10,11 +10,7 @@ permissions:
 env:
   TERRAFORM_DIR: './gh-auto-infra/labs/gh-actions/main'
   AWS_REGION: 'us-west-1'
-=======
-  TERRAFORM_DIR: './main'
-  AWS_REGION: 'us-east-1'
->>>>>>> ea10af5d79729c5c11ca122e1d21945ab350d955
-
+  
 jobs:
   terraform-destroy-plan:
     name: 'Terraform Destroy Plan'
