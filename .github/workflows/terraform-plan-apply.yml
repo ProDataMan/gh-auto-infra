@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 env:
-  TERRAFORM_DIR: './gh-auto-infra/labs/gh-actions/main'
+  TERRAFORM_DIR: '../labs/gh-actions/main'
   AWS_REGION: 'us-west-1'
 
 jobs:
